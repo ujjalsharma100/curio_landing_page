@@ -423,6 +423,36 @@ body {
     margin-right: 0.5rem;
 }
 
+.footer-info {
+    text-align: right;
+}
+
+.footer-info p {
+    margin-bottom: 0.5rem;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: #94a3b8;
+}
+
+.footer-contact i {
+    color: #6366f1;
+}
+
+.footer-contact a {
+    color: #94a3b8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-contact a:hover {
+    color: #6366f1;
+}
+
 /* Animations */
 @keyframes float {
     0%, 100% { transform: translateY(0px); }
@@ -472,6 +502,10 @@ body {
     
     .footer-content {
         flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-info {
         text-align: center;
     }
 }
