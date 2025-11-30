@@ -2,18 +2,38 @@
 
 ## 📱 About Curio
 
-Curio is an AI news assistant that helps you stay informed about the rapidly evolving AI landscape. Instead of generic news feeds, Curio understands your interests, goals, and domain to provide personalized AI news and updates that matter most to you.
+**Curious assistant for curious minds** — Knowledge that finds you.
 
-### Key Benefits:
-- **Personalized AI News**: Tailored AI updates and breakthroughs based on your interests and goals
-- **Cut Through the Noise**: Focus on what's truly relevant to your work in the AI space
-- **Stay Informed**: Keep up with AI developments, tools, and breakthroughs that impact your field
-- **Amplify Knowledge**: Use AI news insights to enhance your understanding and decision-making
+Curio is your intelligent knowledge assistant that learns about you and curates personalized content from Medium, arXiv, YouTube, and more. Instead of drowning in information overload, Curio understands your work, tracks your interests, and proactively delivers knowledge that helps you stay ahead and productive.
 
+### Key Features:
+- **Learns About You**: Gets to know you better with every interaction, understanding what knowledge matters to your work and goals
+- **Proactive Curation**: Actively finds and delivers content from Medium, arXiv, YouTube, and more—tailored to what you're working on right now
+- **Contextual & Relevant**: Every piece of content is analyzed for relevance to your current work, without the noise
+- **Boost Productivity**: Focus on creating value while Curio handles the information overload
 
-## 🔗 Links
+### Mission
+A whole new way to assimilate information productively. Our mission is to improve productivity and enhance capabilities of individuals trying to create value in society.
 
-- **Telegram Bot**: [t.me/curio_chat_bot](https://t.me/curio_chat_bot)
+## 🚀 Getting Started
+
+Visit the landing page to learn more and download Curio for macOS. iOS version coming soon (available on TestFlight).
+
+## 📦 Download
+
+- **macOS**: Available for download from the [releases page](https://github.com/ujjalsharma100/curio_landing_page/releases)
+- **iOS**: Coming soon (TestFlight available)
+
+## 🛠️ Project Structure
+
+```
+curio_landing_page/
+├── index.html      # Main landing page
+├── styles.css      # Styling and design
+├── script.js       # Interactive functionality
+├── curio_icon.png # Curio icon/favicon
+└── README.md       # This file
+```
 
 ## 📝 License
 
@@ -21,4 +41,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Built with ❤️ for Curio - Your AI News Assistant 
+Built with ❤️ for Curio - Your Knowledge Assistant 
