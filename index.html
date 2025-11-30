@@ -3,28 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curio - Your AI News Assistant</title>
+    <title>Curio - Your Knowledge Assistant</title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Curio is your AI news assistant that delivers personalized AI updates and insights. Stay informed with the latest AI breakthroughs, tools, and developments that matter to you.">
-    <meta name="keywords" content="AI news, AI updates, artificial intelligence news, AI assistant, AI developments, AI breakthroughs, AI tools, personalized news">
+    <meta name="description" content="Curio is your intelligent knowledge assistant that curates personalized content from Medium, arXiv, YouTube, and more. Get the information you need to stay ahead, delivered proactively and tailored to your work.">
+    <meta name="keywords" content="knowledge assistant, AI assistant, personalized content, productivity, information curation, AI knowledge, tech knowledge, learning assistant">
     <meta name="author" content="Curio">
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Curio - Your AI News Assistant">
-    <meta property="og:description" content="Get personalized AI news and updates delivered to you. Stay informed with the latest AI breakthroughs and developments that matter to you.">
+    <meta property="og:title" content="Curio - Your Knowledge Assistant">
+    <meta property="og:description" content="Your intelligent assistant that learns about you and curates essential knowledge from various sources. Stay productive and ahead with personalized content tailored to your work.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://yourusername.github.io/curio-landing-page">
     <meta property="og:image" content="https://yourusername.github.io/curio-landing-page/og-image.png">
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Curio - Your AI News Assistant">
-    <meta name="twitter:description" content="Get personalized AI news and updates delivered to you. Stay informed with the latest AI breakthroughs and developments that matter to you.">
+    <meta name="twitter:title" content="Curio - Your Knowledge Assistant">
+    <meta name="twitter:description" content="Your intelligent assistant that learns about you and curates essential knowledge from various sources. Stay productive and ahead with personalized content tailored to your work.">
     <meta name="twitter:image" content="https://yourusername.github.io/curio-landing-page/og-image.png">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+    <link rel="icon" type="image/png" href="curio_icon.png">
     
     <!-- Stylesheets -->
     <link rel="stylesheet" href="styles.css">
@@ -32,154 +32,139 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
+    <!-- Minimal Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-logo">
-                <i class="fas fa-brain"></i>
-                <span>Curio</span>
-            </div>
-            <div class="nav-links">
-                <a href="#features">Features</a>
-                <a href="#how-it-works">How it Works</a>
-                <a href="#cta" class="cta-button">Get Started</a>
-            </div>
+            <div class="nav-logo">Curio</div>
+            <a href="#download" class="nav-cta">Download</a>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1>Your AI News Assistant</h1>
-                <p class="hero-subtitle">Get personalized AI news and updates delivered to you. Stay informed with what matters.</p>
-                <p class="hero-description">
-                    AI is changing everything—and fast. From breakthrough research to powerful tools, the pace of progress is unlike anything we've seen before. But with so much happening, it's easy to feel lost in the noise. What matters most isn't just staying updated—it's staying relevant.
-                </p>
-                <div class="hero-buttons">
-                    <a href="https://t.me/curio_2_bot" class="primary-button">
-                        <i class="fab fa-telegram"></i>
-                        Get AI News Updates
-                    </a>
-                    <a href="#how-it-works" class="secondary-button">
-                        Learn More
-                    </a>
+    <!-- Opening Statement -->
+    <section class="opening">
+        <div class="opening-content">
+            <h1 class="opening-title">Curious assistant for curious minds</h1>
+            <p class="opening-subtitle">Knowledge that finds you</p>
+        </div>
+    </section>
+
+    <!-- Problem Statement -->
+    <section class="problem">
+        <div class="content-block">
+            <div class="content-text">
+                <span class="section-label">The Problem</span>
+                <h2>Information overload is real</h2>
+                <p>Every day, countless articles, papers, and videos compete for your attention. You're drowning in content, but starving for knowledge that actually helps you work better.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Introduction -->
+    <section class="solution">
+        <div class="content-block reverse">
+            <div class="content-text">
+                <span class="section-label">The Solution</span>
+                <h2>Curio learns about you</h2>
+                <p>An intelligent assistant that understands your work, tracks your interests, and proactively curates knowledge from Medium, arXiv, YouTube, and more. It's like having a knowledgeable friend who knows exactly what will help you stay ahead.</p>
+            </div>
+            <div class="content-visual">
+                <div class="floating-elements">
+                    <div class="float-item"></div>
+                    <div class="float-item"></div>
+                    <div class="float-item"></div>
+                    <div class="float-item"></div>
                 </div>
             </div>
-            <div class="hero-visual">
-                <div class="ai-visual">
-                    <div class="neural-network">
-                        <div class="node"></div>
-                        <div class="node"></div>
-                        <div class="node"></div>
-                        <div class="node"></div>
-                        <div class="node"></div>
-                        <div class="node"></div>
-                        <div class="connection"></div>
-                        <div class="connection"></div>
-                        <div class="connection"></div>
-                        <div class="connection"></div>
+        </div>
+    </section>
+
+    <!-- Features - Asymmetric Layout -->
+    <section class="capabilities">
+        <div class="capabilities-container">
+            <div class="capability-item">
+                <div class="capability-number">01</div>
+                <h3>Learns About You</h3>
+                <p>Gets to know you better with every interaction. The more you use it, the more precisely it understands what knowledge matters to your work and goals.</p>
+            </div>
+            <div class="capability-item">
+                <div class="capability-number">02</div>
+                <h3>Proactive Curation</h3>
+                <p>No more endless scrolling. Actively finds and delivers content from Medium, arXiv, YouTube, and more—tailored to what you're working on right now.</p>
+            </div>
+            <div class="capability-item">
+                <div class="capability-number">03</div>
+                <h3>Contextual & Relevant</h3>
+                <p>Every piece of content is analyzed for relevance to your current work. Get the knowledge you need, when you need it, without the noise.</p>
+            </div>
+            <div class="capability-item">
+                <div class="capability-number">04</div>
+                <h3>Boost Productivity</h3>
+                <p>Focus on creating value while Curio handles the information overload. Achieve your short-term and long-term goals with less effort and more insight.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works - Vertical Flow -->
+    <section class="process">
+        <div class="process-container">
+            <span class="section-label">How It Works</span>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-line"></div>
+                    <div class="step-content">
+                        <h3>Start Using Curio</h3>
+                        <p>Begin your journey. As you interact, it learns about your work, interests, and what you're trying to achieve.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-line"></div>
+                    <div class="step-content">
+                        <h3>Receive Curated Knowledge</h3>
+                        <p>Get articles, papers, and videos proactively delivered—all analyzed and selected because they're relevant to your current work and goals.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-content">
+                        <h3>Grow Smarter Together</h3>
+                        <p>With every interaction, Curio becomes more attuned to you. It's a continuous learning partnership that helps you stay ahead and productive.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Features Section -->
-    <section id="features" class="features">
-        <div class="container">
-            <h2>Why Choose Curio for AI News?</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-newspaper"></i>
-                    </div>
-                    <h3>Personalized AI News</h3>
-                    <p>I'm designed to understand your interests, goals, and domain—bringing you the AI news and updates that matter most to you.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-filter"></i>
-                    </div>
-                    <h3>Cut Through the Noise</h3>
-                    <p>Not just another news feed. Focus on what's truly useful and relevant to your work and goals in the AI space.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-rocket"></i>
-                    </div>
-                    <h3>Stay Ahead of AI</h3>
-                    <p>Whether you're a designer, engineer, founder, or in management, stay one step ahead with the latest AI developments.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Amplify Your Knowledge</h3>
-                    <p>AI isn't just about automation—it's about amplifying your understanding, sharpening your edge, and expanding how you think about AI.</p>
-                </div>
-            </div>
+    <!-- Mission Statement -->
+    <section class="mission">
+        <div class="mission-content">
+            <p class="mission-text">A whole new way to assimilate information productively. Our mission is to improve productivity and enhance capabilities of individuals trying to create value in society.</p>
         </div>
     </section>
 
-    <!-- How It Works Section -->
-    <section id="how-it-works" class="how-it-works">
-        <div class="container">
-            <h2>How It Works</h2>
-            <div class="steps">
-                <div class="step">
-                    <div class="step-number">1</div>
-                    <h3>Introduce Yourself</h3>
-                    <p>Share your interests, goals, and domain with Curio to help me understand what AI news matters to you.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">2</div>
-                    <h3>Get AI News Updates</h3>
-                    <p>Receive personalized AI news, breakthroughs, and updates tailored specifically to your needs and interests.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">3</div>
-                    <h3>Stay Informed & Relevant</h3>
-                    <p>The more you share, the more precise and valuable my AI news updates become. Stay relevant in the fast-paced world of AI.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section id="cta" class="cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Ready to Get AI News Updates?</h2>
-                <p>Join thousands of professionals who are already staying informed with Curio's personalized AI news.</p>
-                <a href="https://t.me/curio_2_bot" class="cta-button-large">
-                    <i class="fab fa-telegram"></i>
-                    Start Getting AI News
-                </a>
-                <p class="cta-note">Free to use • No registration required • Available on Telegram</p>
-            </div>
+    <!-- Download CTA -->
+    <section id="download" class="download">
+        <div class="download-content">
+            <h2>Ready to transform how you learn?</h2>
+            <p>Join curious minds discovering a better way to assimilate knowledge</p>
+            <!-- TODO: Replace # with actual macOS app download link when available -->
+            <a href="#" class="download-button">
+                <i class="fab fa-apple"></i>
+                <span>Download for macOS</span>
+            </a>
+            <p class="download-note">Available for macOS • iOS coming soon </p>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <i class="fas fa-brain"></i>
-                    <span>Curio</span>
-                </div>
-                <div class="footer-info">
-                    <p>&copy; 2024 Curio. Your AI news assistant for staying informed.</p>
-                    <p class="footer-contact">
-                        <i class="fas fa-envelope"></i>
-                        <a href="mailto:ujjalsharma81@gmail.com">ujjalsharma81@gmail.com</a>
-                    </p>
-                </div>
+        <div class="footer-container">
+            <div class="footer-brand">Curio</div>
+            <div class="footer-info">
+                <p>&copy; 2025 Curio</p>
+                <a href="mailto:ujjalsharma81@gmail.com">ujjalsharma81@gmail.com</a>
             </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
-</html> 
+</html>
