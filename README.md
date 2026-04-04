@@ -1,44 +1,25 @@
 # Curio Landing Page
 
-## 📱 About Curio
+Static placeholder site for [curiodev.com](https://curiodev.com) while the Curio product is being updated. The live page shows a **coming soon** message and contact email only.
 
-**Curious assistant for curious minds** — Knowledge that finds you.
+## Getting started
 
-Curio is your intelligent knowledge assistant that learns about you and curates personalized content from Medium, arXiv, YouTube, and more. Instead of drowning in information overload, Curio understands your work, tracks your interests, and proactively delivers knowledge that helps you stay ahead and productive.
+Open `index.html` in a browser, or serve the folder with any static file server, for example:
 
-### Key Features:
-- **Learns About You**: Gets to know you better with every interaction, understanding what knowledge matters to your work and goals
-- **Proactive Curation**: Actively finds and delivers content from Medium, arXiv, YouTube, and more—tailored to what you're working on right now
-- **Contextual & Relevant**: Every piece of content is analyzed for relevance to your current work, without the noise
-- **Boost Productivity**: Focus on creating value while Curio handles the information overload
+```bash
+python3 -m http.server 8080
+```
 
-### Mission
-A whole new way to assimilate information productively. Our mission is to improve productivity and enhance capabilities of individuals trying to create value in society.
+Then visit `http://localhost:8080`.
 
-## 🚀 Getting Started
-
-Visit the landing page to learn more and download Curio for macOS. iOS version coming soon (available on TestFlight).
-
-## 📦 Download
-
-- **macOS**: Available for download from the [releases page](https://github.com/ujjalsharma100/curio_landing_page/releases)
-- **iOS**: Coming soon (TestFlight available)
-
-## 🛠️ Project Structure
+## Project structure
 
 ```
 curio_landing_page/
-├── index.html      # Main landing page
-├── styles.css      # Styling and design
-├── script.js       # Interactive functionality
-├── curio_icon.png # Curio icon/favicon
-└── README.md       # This file
+├── index.html       # Coming soon page
+├── styles.css       # Layout and styles
+├── curio_icon.png   # Favicon
+├── CNAME            # GitHub Pages custom domain
+└── README.md        # This file
 ```
 
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-Built with ❤️ for Curio - Your Knowledge Assistant 
